@@ -1,6 +1,6 @@
 # Stock Trading Simulation System
 
-A comprehensive, full-stack stock trading simulation application built with Spring Boot, providing users with a realistic trading experience without financial risk. This system allows users to practice trading strategies, monitor portfolio performance, and enhance their trading skills through educational resources.
+A comprehensive, full-stack stock trading simulation application built with Spring Boot, providing users with a realistic trading experience without financial risk. This system allows users to practice trading strategies, monitor portfolio performance, and enhance their trading skills.
 
 ## 🚀 Features
 
@@ -17,7 +17,6 @@ A comprehensive, full-stack stock trading simulation application built with Spri
   - Bollinger Bands
 - **Risk Management**: Position sizing, stop-loss, and diversification analysis
 - **Performance Analytics**: Comprehensive portfolio analytics and reporting
-- **Educational Resources**: Trading tutorials, quizzes, and learning materials
 
 ### User Experience
 - **Responsive Design**: Modern, mobile-friendly interface
@@ -53,8 +52,6 @@ A comprehensive, full-stack stock trading simulation application built with Spri
 - `PortfolioStock`: Portfolio holdings tracking
 - `TradingStrategy`: Algorithmic trading strategies
 - `StrategyExecution`: Strategy execution records
-- `EducationalResource`: Learning materials
-- `Quiz`: Interactive quizzes
 
 #### Services
 - `TradingService`: Core trading operations
@@ -62,7 +59,6 @@ A comprehensive, full-stack stock trading simulation application built with Spri
 - `StockService`: Stock data management
 - `AnalyticsService`: Performance analytics
 - `AlgorithmicTradingService`: Strategy execution
-- `EducationalService`: Learning content
 - `StockDataService`: Real-time data updates
 
 #### Controllers
@@ -72,7 +68,6 @@ A comprehensive, full-stack stock trading simulation application built with Spri
 - `StockController`: Stock data access
 - `AnalyticsController`: Analytics and reporting
 - `AlgorithmicTradingController`: Strategy management
-- `EducationalController`: Learning resources
 
 ## 🚀 Getting Started
 
@@ -150,12 +145,6 @@ The system comes with pre-configured demo accounts:
 - `GET /api/algorithmic/signals` - Get trading signals
 - `POST /api/algorithmic/executions/{id}/execute` - Execute strategy
 
-### Education
-- `GET /api/education/resources` - Get learning resources
-- `GET /api/education/resources/{id}` - Get specific resource
-- `POST /api/education/quizzes/{id}/submit` - Submit quiz
-- `GET /api/education/progress` - Get learning progress
-
 ## 🎯 Key Features Explained
 
 ### Real-time Trading
@@ -175,12 +164,6 @@ The system comes with pre-configured demo accounts:
 - **Strategy Execution**: Automated buy/sell signals
 - **Backtesting**: Historical strategy performance
 - **Risk Management**: Position sizing and stop-loss
-
-### Educational System
-- **Learning Resources**: Articles, tutorials, videos
-- **Interactive Quizzes**: Knowledge assessment
-- **Progress Tracking**: Learning milestones
-- **Difficulty Levels**: Beginner to expert content
 
 ## 🔧 Configuration
 
@@ -212,7 +195,6 @@ stock.api.refresh-interval=30000
 The application includes:
 - **10 Sample Stocks**: Major companies (AAPL, MSFT, GOOGL, etc.)
 - **Demo Users**: Pre-configured accounts with sample portfolios
-- **Educational Content**: Trading tutorials and quizzes
 - **Trading Strategies**: Pre-built algorithmic strategies
 
 ## 🚀 Deployment
@@ -235,7 +217,6 @@ mvn spring-boot:run
 2. Navigate through different sections (Dashboard, Portfolio, Trading)
 3. Execute buy/sell orders
 4. Monitor real-time updates
-5. Explore educational resources
 
 ### API Testing
 Use tools like Postman or curl to test REST endpoints:
